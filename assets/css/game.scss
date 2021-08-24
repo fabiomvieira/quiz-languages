@@ -1,0 +1,101 @@
+#quest1, #quest2, #quest3, #quest4, #quest5 {
+    position: fixed;
+    display: none;
+    opacity: 0;
+} #quest1.currentLevel {
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 100%;
+} #quest2.currentLevel {
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 100%;
+} #quest3.currentLevel {
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 100%;
+} #quest4.currentLevel {
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 100%;
+} #quest5.currentLevel {
+    display: block;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 100%;
+}
+
+p.points {
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(53, 53, 53);
+
+    &.dark {
+        color: white;
+    }
+}
+
+p#textFinal {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+
+    &.dark {
+        color: white;
+    }
+}
+
+#quest1, #quest2, #quest3, #quest4, #quest5 {
+    ul {
+        list-style: none;
+    } button {
+        border: 0;
+        margin: 1vh 0vh;
+        width: 25vw;
+        padding: 5%;
+        background-color: white;
+        font-size: 1.15rem;
+        transition: background-color 0.2s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
+
+        &:hover {
+            background-color: rgb(195, 195, 195);
+            font-style: italic;
+        }
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+}
+
+body {
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#quest1.dark, #quest2.dark, #quest3.dark, #quest4.dark, #quest5.dark {
+    button {
+        color: white;
+        background-color: rgb(20, 20, 20);
+    }
+    h3 {
+        color: white;
+    }
+}
+
+#darkMode {
+    padding: 0.5%;
+    background-color: rgb(20, 20, 20);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+
+    &.dark {
+        color: rgb(20, 20, 20);
+        background-color: white;
+    }
+}

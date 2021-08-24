@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Projeto Game - fabiomvieira</title>
+</head>
+<body>
+
+    <!-- PROJETO DESENVOLVIDO POR FÁBIO MONTEIRO -->
+    <!-- LinkedIn   linkedin.com/in/fabiomonteirov/ -->
+    <!-- GitHub     github.com/fabiomvieira -->
+
+    <!-- PROJETO CRIADO COM HTML, CSS(SCSS), BOOTSTRAP E JAVASCRIPT -->
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-1">
+                <p class="text-center">
+                    <button id="darkMode">DarkMode</button> 
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <p class="text-center points"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid currentLevel" id="quest1">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Como podemos definir uma variável constante em JavaScript?</h3>
+            </div>
+            <ul class="col-12 list-group d-flex flex-column align-items-center">
+                <li class="list-item">
+                    <button type="button" id="quest1_btn">varConstante teste = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest1_btn">var teste = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest1_btn">let teste = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest1_btn">const teste = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest1_btn">constante teste = 1</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="quest2">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Como podemos criar um laço for no Python?</h3>
+            </div>
+            <ul class="col-12 list-group d-flex flex-column align-items-center">
+                <li class="list-item">
+                    <button type="button" id="quest2_btn">for el in elementos: {}</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest2_btn">for (el in elementos) {}</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest2_btn">for elementos: {}</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest2_btn">for el -> elementos: {}</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest2_btn">for el === elementos: {}</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="quest3">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Qual a maneira correta de criar uma variável em Kotlin?</h3>
+            </div>
+            <ul class="col-12 list-group d-flex flex-column align-items-center">
+                <li class="list-item">
+                    <button type="button" id="quest3_btn">variavel teste = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest3_btn">var teste -> Int = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest3_btn">var teste == 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest3_btn">var teste(Int) = 1</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest3_btn">var teste:Int = 1</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="quest4">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Como podemos mudar o tamanho da fonte no CSS?</h3>
+            </div>
+            <ul class="col-12 list-group d-flex flex-column align-items-center">
+                <li class="list-item">
+                    <button type="button" id="quest4_btn">font size: 1px</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest4_btn">font-size: 1px</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest4_btn">font_size: 1px</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest4_btn">fontSize: 1px</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest4_btn">fontsize: 1px</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="quest5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Em HTML, qual a maneira correta de criar um elemento de botão?</h3>
+            </div>
+            <ul class="col-12 list-group d-flex flex-column align-items-center">
+                <li class="list-item">
+                    <button type="button" id="quest5_btn">&lt;Button/&gt;</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest5_btn">&lt;button type="button" &gt;&lt;/button&gt;</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest5_btn">&lt;button&gt;&lt;button&gt;</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest5_btn">&lt;button type:"button"&gt;&lt;/button&gt;</button>
+                </li>
+                <li class="list-item">
+                    <button type="button" id="quest5_btn">&lt;button/&gt;</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-1 col-10 mt-5">
+                <p class="text-center" id="textFinal"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="assets/js/game.js"></script>
+
+</body>
+</html>

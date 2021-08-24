@@ -1,0 +1,96 @@
+#quest1, #quest2, #quest3, #quest4, #quest5 {
+  position: fixed;
+  display: none;
+  opacity: 0; }
+
+#quest1.currentLevel {
+  display: block;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 100%; }
+
+#quest2.currentLevel {
+  display: block;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 100%; }
+
+#quest3.currentLevel {
+  display: block;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 100%; }
+
+#quest4.currentLevel {
+  display: block;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 100%; }
+
+#quest5.currentLevel {
+  display: block;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 100%; }
+
+p.points {
+  font-size: 0.85rem;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  color: #353535; }
+  p.points.dark {
+    color: white; }
+
+p#textFinal {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif; }
+  p#textFinal.dark {
+    color: white; }
+
+#quest1 ul, #quest2 ul, #quest3 ul, #quest4 ul, #quest5 ul {
+  list-style: none; }
+
+#quest1 button, #quest2 button, #quest3 button, #quest4 button, #quest5 button {
+  border: 0;
+  margin: 1vh 0vh;
+  width: 25vw;
+  padding: 5%;
+  background-color: white;
+  font-size: 1.15rem;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  font-family: 'Montserrat', sans-serif; }
+  #quest1 button:hover, #quest2 button:hover, #quest3 button:hover, #quest4 button:hover, #quest5 button:hover {
+    background-color: #c3c3c3;
+    font-style: italic; }
+
+#quest1 h3, #quest2 h3, #quest3 h3, #quest4 h3, #quest5 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: black; }
+
+body {
+  background-color: white;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out; }
+
+#quest1.dark button, #quest2.dark button, #quest3.dark button, #quest4.dark button, #quest5.dark button {
+  color: white;
+  background-color: #141414; }
+
+#quest1.dark h3, #quest2.dark h3, #quest3.dark h3, #quest4.dark h3, #quest5.dark h3 {
+  color: white; }
+
+#darkMode {
+  padding: 0.5%;
+  background-color: #141414;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif; }
+  #darkMode.dark {
+    color: #141414;
+    background-color: white; }
+/*# sourceMappingURL=game.css.map */
